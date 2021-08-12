@@ -26,74 +26,57 @@ namespace STG {
           string.Concat(
             "ChJzdGdfbGV2ZWxzZXQucHJvdG8SEnN0Z19sZXZlbHNldF9wcm90byJVCghM",
             "ZXZlbHNldBINCgV0aXRsZRgBIAEoCRIpCgZsZXZlbHMYAiADKAsyGS5zdGdf",
-            "bGV2ZWxzZXRfcHJvdG8uTGV2ZWwSDwoHYXV0aG9ycxgDIAMoCSJZCgVMZXZl",
-            "bBINCgV0aXRsZRgBIAEoCRIPCgdhdXRob3JzGAIgAygJEjAKCWdhbWVib2Fy",
-            "ZBgEIAEoCzIdLnN0Z19sZXZlbHNldF9wcm90by5HYW1lYm9hcmQiyQMKCUdh",
-            "bWVib2FyZBIOCgZzaXplX3gYASABKAUSDgoGc2l6ZV95GAIgASgFEg4KBnNp",
-            "emVfehgDIAEoBRIMCgR0aWNrGAQgASgFEjAKCWdhbWVzdGF0ZRgFIAEoDjId",
-            "LnN0Z19sZXZlbHNldF9wcm90by5HYW1lc3RhdGUSLwoHZ2xvYmFscxgGIAMo",
-            "CzIeLnN0Z19sZXZlbHNldF9wcm90by5DaGFubmVsU2V0EjMKA21hcBgIIAMo",
-            "CzImLnN0Z19sZXZlbHNldF9wcm90by5HYW1lYm9hcmQuTWFwRW50cnkSSAoO",
-            "ZWxlbWVudF9zdGF0ZXMYCSADKAsyMC5zdGdfbGV2ZWxzZXRfcHJvdG8uR2Ft",
-            "ZWJvYXJkLkVsZW1lbnRTdGF0ZXNFbnRyeRpECghNYXBFbnRyeRILCgNrZXkY",
-            "ASABKAUSJwoFdmFsdWUYAiABKAsyGC5zdGdfbGV2ZWxzZXRfcHJvdG8uQ2Vs",
-            "bDoCOAEaVgoSRWxlbWVudFN0YXRlc0VudHJ5EgsKA2tleRgBIAEoBRIvCgV2",
-            "YWx1ZRgCIAEoCzIgLnN0Z19sZXZlbHNldF9wcm90by5FbGVtZW50U3RhdGU6",
-            "AjgBIn0KCkNoYW5uZWxTZXQSPgoIY2hhbm5lbHMYASADKAsyLC5zdGdfbGV2",
-            "ZWxzZXRfcHJvdG8uQ2hhbm5lbFNldC5DaGFubmVsc0VudHJ5Gi8KDUNoYW5u",
-            "ZWxzRW50cnkSCwoDa2V5GAEgASgFEg0KBXZhbHVlGAIgASgIOgI4ASKIAwoE",
-            "Q2VsbBIqCgd0ZXJyYWluGAEgASgLMhkuc3RnX2xldmVsc2V0X3Byb3RvLlRv",
-            "a2VuEjMKEHRlcnJhaW5fbW9kaWZpZXIYAiABKAsyGS5zdGdfbGV2ZWxzZXRf",
-            "cHJvdG8uVG9rZW4SKQoGcGlja3VwGAMgASgLMhkuc3RnX2xldmVsc2V0X3By",
-            "b3RvLlRva2VuEiYKA21vYhgEIAEoCzIZLnN0Z19sZXZlbHNldF9wcm90by5U",
-            "b2tlbhImCgN0b3AYBSABKAsyGS5zdGdfbGV2ZWxzZXRfcHJvdG8uVG9rZW4S",
-            "KAoFbm9ydGgYBiABKAsyGS5zdGdfbGV2ZWxzZXRfcHJvdG8uVG9rZW4SJwoE",
-            "ZWFzdBgHIAEoCzIZLnN0Z19sZXZlbHNldF9wcm90by5Ub2tlbhIoCgVzb3V0",
-            "aBgIIAEoCzIZLnN0Z19sZXZlbHNldF9wcm90by5Ub2tlbhInCgR3ZXN0GAkg",
-            "ASgLMhkuc3RnX2xldmVsc2V0X3Byb3RvLlRva2VuIj4KBVRva2VuEiYKAmlk",
-            "GAEgASgOMhouc3RnX2xldmVsc2V0X3Byb3RvLkVsZW1JZBINCgVzdWJpZBgC",
-            "IAEoBSLIAQoMRWxlbWVudFN0YXRlEgwKBHJ1bGUYASABKAUSDwoHY2hhbm5l",
-            "bBgCIAEoBRIoCgVjb2xvchgDIAEoDjIZLnN0Z19sZXZlbHNldF9wcm90by5D",
-            "b2xvchIqCgNkaXIYBCABKA4yHS5zdGdfbGV2ZWxzZXRfcHJvdG8uRGlyZWN0",
-            "aW9uEg0KBWNvdW50GAUgASgFEjQKCWludmVudG9yeRgGIAMoCzIhLnN0Z19s",
-            "ZXZlbHNldF9wcm90by5JbnZlbnRvcnlJdGVtImMKDUludmVudG9yeUl0ZW0S",
-            "JgoCaWQYASABKA4yGi5zdGdfbGV2ZWxzZXRfcHJvdG8uRWxlbUlkEgwKBHJ1",
-            "bGUYAiABKAUSDQoFY29sb3IYAyABKAUSDQoFY291bnQYBCABKAUieQoFSW5w",
-            "dXQSLgoHcHJpbWFyeRgBIAEoDjIdLnN0Z19sZXZlbHNldF9wcm90by5EaXJl",
-            "Y3Rpb24SMAoJc2Vjb25kYXJ5GAIgASgOMh0uc3RnX2xldmVsc2V0X3Byb3Rv",
-            "LkRpcmVjdGlvbhIOCgZhY3Rpb24YAyABKAUq6QQKBkVsZW1JZBIUChBFTEVN",
-            "SURfVU5ERUZJTkVEEAASCQoFU1BBQ0UQARIJCgVGTE9PUhACEggKBFdBTEwQ",
-            "AxIICgRFWElUEAQSCQoFV0FURVIQBRIICgRGSVJFEAYSCAoERElSVBAHEgoK",
-            "BkdSQVZFTBAIEgcKA0lDRRAJEgkKBUZPUkNFEAoSCgoGQ0xPTkVSEAsSCAoE",
-            "SElOVBAMEg4KCkNIRUNLUE9JTlQQDRIJCgVUSElFRhAOEgwKCFRFTEVQT1JU",
-            "EA8SCAoEVFJBUBAQEggKBERPT1IQERIPCgtUT0dHTEVfV0FMTBASEg4KClBP",
-            "UFVQX1dBTEwQExIJCgVQQU5FTBBkEhAKDFRPR0dMRV9QQU5FTBBlEhEKDU9O",
-            "RV9XQVlfUEFORUwQZhIPCgtQT1BVUF9QQU5FTBBnEgoKBkNPUk5FUhBoEgsK",
-            "BlNPQ0tFVBDIARISCg1UT0dHTEVfQlVUVE9OEMkBEhMKDkhPTERPTkVfQlVU",
-            "VE9OEMoBEhMKDkhPTERBTExfQlVUVE9OEMsBEhEKDE9ORU9GX0JVVFRPThDM",
-            "ARIQCgtBUkVBX0JVVFRPThDNARIJCgRDSElQEKwCEgkKBEJPTUIQrQISDQoI",
-            "RkxJUFBFUlMQrgISDAoHU1VDVElPThCvAhIOCglGSVJFQk9PVFMQsAISCwoG",
-            "U0tBVEVTELECEggKA0tFWRCyAhILCgZQTEFZRVIQkAMSDwoKRElSVF9CTE9D",
-            "SxCRAxIMCgdNT05TVEVSEJIDEgkKBFRBTksQkwMSEQoMTU9CX0ZPTExPV0VS",
-            "EPMDEgsKBkNBTk9QWRD0AypBCglHYW1lc3RhdGUSFwoTR0FNRVNUQVRFX1VO",
-            "REVGSU5FRBAAEggKBFBMQVkQARIICgRMT1NFEAISBwoDV0lOEAMqdAoFQ29s",
-            "b3ISEwoPQ09MT1JfVU5ERUZJTkVEEAASBwoDUkVEEAESCAoEQkxVRRACEgkK",
-            "BUdSRUVOEAMSCgoGWUVMTE9XEAQSCAoEQ1lBThAFEgsKB01BR0VOVEEQBhIK",
-            "CgZPUkFOR0UQBxIJCgVCUk9XThAIKmwKCURpcmVjdGlvbhIXChNESVJFQ1RJ",
-            "T05fVU5ERUZJTkVEEAASBQoBThABEgUKAUUQAhIFCgFTEAMSBQoBVxAEEgYK",
-            "Ak5FEAUSBgoCU0UQBhIGCgJTVxAHEgYKAk5XEAgSCgoGUkFORE9NEAlCBqoC",
-            "A1NUR2IGcHJvdG8z"));
+            "bGV2ZWxzZXRfcHJvdG8uTGV2ZWwSDwoHYXV0aG9ycxgDIAMoCSLOAQoFTGV2",
+            "ZWwSDQoFdGl0bGUYASABKAkSDwoHYXV0aG9ycxgCIAMoCRIOCgZzaXplX3gY",
+            "AyABKAUSDgoGc2l6ZV95GAQgASgFEg4KBnNpemVfehgFIAEoBRIvCgNtYXAY",
+            "CCADKAsyIi5zdGdfbGV2ZWxzZXRfcHJvdG8uTGV2ZWwuTWFwRW50cnkaRAoI",
+            "TWFwRW50cnkSCwoDa2V5GAEgASgFEicKBXZhbHVlGAIgASgLMhguc3RnX2xl",
+            "dmVsc2V0X3Byb3RvLkNlbGw6AjgBIpoDCgRDZWxsEiwKB3RlcnJhaW4YASAB",
+            "KAsyGy5zdGdfbGV2ZWxzZXRfcHJvdG8uRWxlbWVudBI1ChB0ZXJyYWluX21v",
+            "ZGlmaWVyGAIgASgLMhsuc3RnX2xldmVsc2V0X3Byb3RvLkVsZW1lbnQSKwoG",
+            "cGlja3VwGAMgASgLMhsuc3RnX2xldmVsc2V0X3Byb3RvLkVsZW1lbnQSKAoD",
+            "bW9iGAQgASgLMhsuc3RnX2xldmVsc2V0X3Byb3RvLkVsZW1lbnQSKAoDdG9w",
+            "GAUgASgLMhsuc3RnX2xldmVsc2V0X3Byb3RvLkVsZW1lbnQSKgoFbm9ydGgY",
+            "BiABKAsyGy5zdGdfbGV2ZWxzZXRfcHJvdG8uRWxlbWVudBIpCgRlYXN0GAcg",
+            "ASgLMhsuc3RnX2xldmVsc2V0X3Byb3RvLkVsZW1lbnQSKgoFc291dGgYCCAB",
+            "KAsyGy5zdGdfbGV2ZWxzZXRfcHJvdG8uRWxlbWVudBIpCgR3ZXN0GAkgASgL",
+            "Mhsuc3RnX2xldmVsc2V0X3Byb3RvLkVsZW1lbnQi+gEKB0VsZW1lbnQSJgoC",
+            "aWQYASABKA4yGi5zdGdfbGV2ZWxzZXRfcHJvdG8uRWxlbUlkEgwKBHJ1bGUY",
+            "AiABKAUSDwoHY2hhbm5lbBgDIAEoBRIoCgVjb2xvchgEIAEoDjIZLnN0Z19s",
+            "ZXZlbHNldF9wcm90by5Db2xvchIqCgNkaXIYBSABKA4yHS5zdGdfbGV2ZWxz",
+            "ZXRfcHJvdG8uRGlyZWN0aW9uEg0KBWNvdW50GAYgASgFEi4KCWludmVudG9y",
+            "eRgHIAMoCzIbLnN0Z19sZXZlbHNldF9wcm90by5FbGVtZW50EhMKC3N0cmlu",
+            "Z19hcmdzGAggAygJInkKBUlucHV0Ei4KB3ByaW1hcnkYASABKA4yHS5zdGdf",
+            "bGV2ZWxzZXRfcHJvdG8uRGlyZWN0aW9uEjAKCXNlY29uZGFyeRgCIAEoDjId",
+            "LnN0Z19sZXZlbHNldF9wcm90by5EaXJlY3Rpb24SDgoGYWN0aW9uGAMgASgF",
+            "KukECgZFbGVtSWQSFAoQRUxFTUlEX1VOREVGSU5FRBAAEgkKBVNQQUNFEAES",
+            "CQoFRkxPT1IQAhIICgRXQUxMEAMSCAoERVhJVBAEEgkKBVdBVEVSEAUSCAoE",
+            "RklSRRAGEggKBERJUlQQBxIKCgZHUkFWRUwQCBIHCgNJQ0UQCRIJCgVGT1JD",
+            "RRAKEgoKBkNMT05FUhALEggKBEhJTlQQDBIOCgpDSEVDS1BPSU5UEA0SCQoF",
+            "VEhJRUYQDhIMCghURUxFUE9SVBAPEggKBFRSQVAQEBIICgRET09SEBESDwoL",
+            "VE9HR0xFX1dBTEwQEhIOCgpQT1BVUF9XQUxMEBMSCQoFUEFORUwQZBIQCgxU",
+            "T0dHTEVfUEFORUwQZRIRCg1PTkVfV0FZX1BBTkVMEGYSDwoLUE9QVVBfUEFO",
+            "RUwQZxIKCgZDT1JORVIQaBILCgZTT0NLRVQQyAESEgoNVE9HR0xFX0JVVFRP",
+            "ThDJARITCg5IT0xET05FX0JVVFRPThDKARITCg5IT0xEQUxMX0JVVFRPThDL",
+            "ARIRCgxPTkVPRl9CVVRUT04QzAESEAoLQVJFQV9CVVRUT04QzQESCQoEQ0hJ",
+            "UBCsAhIJCgRCT01CEK0CEg0KCEZMSVBQRVJTEK4CEgwKB1NVQ1RJT04QrwIS",
+            "DgoJRklSRUJPT1RTELACEgsKBlNLQVRFUxCxAhIICgNLRVkQsgISCwoGUExB",
+            "WUVSEJADEg8KCkRJUlRfQkxPQ0sQkQMSDAoHTU9OU1RFUhCSAxIJCgRUQU5L",
+            "EJMDEhEKDE1PQl9GT0xMT1dFUhDzAxILCgZDQU5PUFkQ9AMqQQoJR2FtZXN0",
+            "YXRlEhcKE0dBTUVTVEFURV9VTkRFRklORUQQABIICgRQTEFZEAESCAoETE9T",
+            "RRACEgcKA1dJThADKnQKBUNvbG9yEhMKD0NPTE9SX1VOREVGSU5FRBAAEgcK",
+            "A1JFRBABEggKBEJMVUUQAhIJCgVHUkVFThADEgoKBllFTExPVxAEEggKBENZ",
+            "QU4QBRILCgdNQUdFTlRBEAYSCgoGT1JBTkdFEAcSCQoFQlJPV04QCCpsCglE",
+            "aXJlY3Rpb24SFwoTRElSRUNUSU9OX1VOREVGSU5FRBAAEgUKAU4QARIFCgFF",
+            "EAISBQoBUxADEgUKAVcQBBIGCgJORRAFEgYKAlNFEAYSBgoCU1cQBxIGCgJO",
+            "VxAIEgoKBlJBTkRPTRAJQgaqAgNTVEdiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::STG.ElemId), typeof(global::STG.Gamestate), typeof(global::STG.Color), typeof(global::STG.Direction), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::STG.Levelset), global::STG.Levelset.Parser, new[]{ "Title", "Levels", "Authors" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::STG.Level), global::STG.Level.Parser, new[]{ "Title", "Authors", "Gameboard" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::STG.Gameboard), global::STG.Gameboard.Parser, new[]{ "SizeX", "SizeY", "SizeZ", "Tick", "Gamestate", "Globals", "Map", "ElementStates" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, }),
-            new pbr::GeneratedClrTypeInfo(typeof(global::STG.ChannelSet), global::STG.ChannelSet.Parser, new[]{ "Channels" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
+            new pbr::GeneratedClrTypeInfo(typeof(global::STG.Level), global::STG.Level.Parser, new[]{ "Title", "Authors", "SizeX", "SizeY", "SizeZ", "Map" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { null, }),
             new pbr::GeneratedClrTypeInfo(typeof(global::STG.Cell), global::STG.Cell.Parser, new[]{ "Terrain", "TerrainModifier", "Pickup", "Mob", "Top", "North", "East", "South", "West" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::STG.Token), global::STG.Token.Parser, new[]{ "Id", "Subid" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::STG.ElementState), global::STG.ElementState.Parser, new[]{ "Rule", "Channel", "Color", "Dir", "Count", "Inventory" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::STG.InventoryItem), global::STG.InventoryItem.Parser, new[]{ "Id", "Rule", "Color", "Count" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::STG.Element), global::STG.Element.Parser, new[]{ "Id", "Rule", "Channel", "Color", "Dir", "Count", "Inventory", "StringArgs" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::STG.Input), global::STG.Input.Parser, new[]{ "Primary", "Secondary", "Action" }, null, null, null, null)
           }));
     }
@@ -108,63 +91,63 @@ namespace STG {
     /// </summary>
     [pbr::OriginalName("SPACE")] Space = 1,
     /// <summary>
-    /// + color * 10_000
+    /// color
     /// </summary>
     [pbr::OriginalName("FLOOR")] Floor = 2,
     /// <summary>
-    /// + (color * 10_000) + rule (0 = NORMAL, 1 = APPEARING, 2 = INVISIBLE, 3 = BLUE REAL, 4 = BLUE FAKE)
+    /// rule (0 = NORMAL, 1 = APPEARING, 2 = INVISIBLE, 3 = BLUE REAL, 4 = BLUE FAKE)
     /// </summary>
     [pbr::OriginalName("WALL")] Wall = 3,
     /// <summary>
-    /// + color * 10_000, add time limit to elementstate
+    /// color, count = timelimit
     /// </summary>
     [pbr::OriginalName("EXIT")] Exit = 4,
     /// <summary>
-    /// + color * 10_000 (for dirt/floor that appears when filled in)
+    /// color (for dirt/floor that appears when filled in)
     /// </summary>
     [pbr::OriginalName("WATER")] Water = 5,
     /// <summary>
-    /// + color * 10_000 (for water that appears when filled in)
+    /// color (for water that appears when filled in)
     /// </summary>
     [pbr::OriginalName("FIRE")] Fire = 6,
     /// <summary>
-    /// + color * 10_000 (for floor that appears)
+    /// color (for floor that appears)
     /// </summary>
     [pbr::OriginalName("DIRT")] Dirt = 7,
     [pbr::OriginalName("GRAVEL")] Gravel = 8,
     [pbr::OriginalName("ICE")] Ice = 9,
     /// <summary>
-    /// + color * 10_000 + direction (0 = RAND, 1 = N, 2 = E, 3 = S, 4 = W)
+    /// color, direction (0 = RAND, 1 = N, 2 = E, 3 = S, 4 = W)
     /// </summary>
     [pbr::OriginalName("FORCE")] Force = 10,
     /// <summary>
-    /// + color * 10_000
+    /// color
     /// </summary>
     [pbr::OriginalName("CLONER")] Cloner = 11,
     [pbr::OriginalName("HINT")] Hint = 12,
     [pbr::OriginalName("CHECKPOINT")] Checkpoint = 13,
     /// <summary>
-    /// + rule
+    /// rule (0 = item, 1 = key)
     /// </summary>
     [pbr::OriginalName("THIEF")] Thief = 14,
     /// <summary>
-    /// + color * 10_000
+    /// color
     /// </summary>
     [pbr::OriginalName("TELEPORT")] Teleport = 15,
     /// <summary>
-    /// + color * 10_000 + rule (0 = OPEN, 1 = SHUT)
+    /// color, rule (0 = OPEN, 1 = SHUT)
     /// </summary>
     [pbr::OriginalName("TRAP")] Trap = 16,
     /// <summary>
-    /// + color * 10_000
+    /// color
     /// </summary>
     [pbr::OriginalName("DOOR")] Door = 17,
     /// <summary>
-    /// + color * 10_000 + rule (0 = OPEN, 1 = SHUT)
+    /// color, rule (0 = OPEN, 1 = SHUT)
     /// </summary>
     [pbr::OriginalName("TOGGLE_WALL")] ToggleWall = 18,
     /// <summary>
-    /// + color * 10_000 + count (1-99)
+    /// color, count
     /// </summary>
     [pbr::OriginalName("POPUP_WALL")] PopupWall = 19,
     /// <summary>
@@ -172,15 +155,15 @@ namespace STG {
     /// </summary>
     [pbr::OriginalName("PANEL")] Panel = 100,
     /// <summary>
-    /// + color * 10_000 + rule (0 = OPEN, 1 = SHUT)
+    /// color, rule (0 = OPEN, 1 = SHUT)
     /// </summary>
     [pbr::OriginalName("TOGGLE_PANEL")] TogglePanel = 101,
     /// <summary>
-    /// + color * 10_000 + rule (0 = IN, 1 = OUT)
+    /// color, rule (0 = IN, 1 = OUT)
     /// </summary>
     [pbr::OriginalName("ONE_WAY_PANEL")] OneWayPanel = 102,
     /// <summary>
-    /// + color * 10_000 + count
+    /// color, count
     /// </summary>
     [pbr::OriginalName("POPUP_PANEL")] PopupPanel = 103,
     /// <summary>
@@ -208,19 +191,19 @@ namespace STG {
     /// </summary>
     [pbr::OriginalName("TOGGLE_BUTTON")] ToggleButton = 201,
     /// <summary>
-    /// + color * 10_000 + channel
+    /// + color, channel
     /// </summary>
     [pbr::OriginalName("HOLDONE_BUTTON")] HoldoneButton = 202,
     /// <summary>
-    /// + color * 10_000 + channel
+    /// + color, channel
     /// </summary>
     [pbr::OriginalName("HOLDALL_BUTTON")] HoldallButton = 203,
     /// <summary>
-    /// + color * 10_000 + channel
+    /// + color, channel
     /// </summary>
     [pbr::OriginalName("ONEOF_BUTTON")] OneofButton = 204,
     /// <summary>
-    /// + color * 10_000 + channel
+    /// + color, channel
     /// </summary>
     [pbr::OriginalName("AREA_BUTTON")] AreaButton = 205,
     /// <summary>
@@ -233,23 +216,23 @@ namespace STG {
     [pbr::OriginalName("CHIP")] Chip = 300,
     [pbr::OriginalName("BOMB")] Bomb = 301,
     /// <summary>
-    /// + rule * 1_000 + count
+    /// rule, count
     /// </summary>
     [pbr::OriginalName("FLIPPERS")] Flippers = 302,
     /// <summary>
-    /// + rule * 1_000 + count
+    /// rule, count
     /// </summary>
     [pbr::OriginalName("SUCTION")] Suction = 303,
     /// <summary>
-    /// + rule * 1_000 + count
+    /// rule, count
     /// </summary>
     [pbr::OriginalName("FIREBOOTS")] Fireboots = 304,
     /// <summary>
-    /// + rule * 1_000 + count
+    /// rule, count
     /// </summary>
     [pbr::OriginalName("SKATES")] Skates = 305,
     /// <summary>
-    /// + color * 10_000 + rule * 1_000 + count (999 = FOREVER KEY, do not decrement)
+    /// color, rule, count (999 = FOREVER KEY, do not decrement)
     /// </summary>
     [pbr::OriginalName("KEY")] Key = 306,
     /// <summary>
@@ -257,7 +240,7 @@ namespace STG {
     /// </summary>
     [pbr::OriginalName("PLAYER")] Player = 400,
     /// <summary>
-    /// + mob_id
+    /// dir, inv
     /// </summary>
     [pbr::OriginalName("DIRT_BLOCK")] DirtBlock = 401,
     /// <summary>
@@ -265,7 +248,7 @@ namespace STG {
     /// </summary>
     [pbr::OriginalName("MONSTER")] Monster = 402,
     /// <summary>
-    /// + mob_id
+    /// color, dir
     /// </summary>
     [pbr::OriginalName("TANK")] Tank = 403,
     /// <summary>
@@ -555,9 +538,6 @@ namespace STG {
 
   }
 
-  /// <summary>
-  /// Optimized for editors and sharing. Setup Gameboard from Level.
-  /// </summary>
   public sealed partial class Level : pb::IMessage<Level>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -594,7 +574,10 @@ namespace STG {
     public Level(Level other) : this() {
       title_ = other.title_;
       authors_ = other.authors_.Clone();
-      gameboard_ = other.gameboard_ != null ? other.gameboard_.Clone() : null;
+      sizeX_ = other.sizeX_;
+      sizeY_ = other.sizeY_;
+      sizeZ_ = other.sizeZ_;
+      map_ = other.map_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -627,16 +610,58 @@ namespace STG {
       get { return authors_; }
     }
 
-    /// <summary>Field number for the "gameboard" field.</summary>
-    public const int GameboardFieldNumber = 4;
-    private global::STG.Gameboard gameboard_;
+    /// <summary>Field number for the "size_x" field.</summary>
+    public const int SizeXFieldNumber = 3;
+    private int sizeX_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::STG.Gameboard Gameboard {
-      get { return gameboard_; }
+    public int SizeX {
+      get { return sizeX_; }
       set {
-        gameboard_ = value;
+        sizeX_ = value;
       }
+    }
+
+    /// <summary>Field number for the "size_y" field.</summary>
+    public const int SizeYFieldNumber = 4;
+    private int sizeY_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int SizeY {
+      get { return sizeY_; }
+      set {
+        sizeY_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "size_z" field.</summary>
+    public const int SizeZFieldNumber = 5;
+    private int sizeZ_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int SizeZ {
+      get { return sizeZ_; }
+      set {
+        sizeZ_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "map" field.</summary>
+    public const int MapFieldNumber = 8;
+    private static readonly pbc::MapField<int, global::STG.Cell>.Codec _map_map_codec
+        = new pbc::MapField<int, global::STG.Cell>.Codec(pb::FieldCodec.ForInt32(8, 0), pb::FieldCodec.ForMessage(18, global::STG.Cell.Parser), 66);
+    private readonly pbc::MapField<int, global::STG.Cell> map_ = new pbc::MapField<int, global::STG.Cell>();
+    /// <summary>
+    /// p = z * (size_x + size_y) + y * size_x + x
+    /// x = (p % size_z) % size_x
+    /// y = (p % size_z) // size_x
+    /// z = p // size_z
+    /// position to cell containing tokens
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::MapField<int, global::STG.Cell> Map {
+      get { return map_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -656,7 +681,10 @@ namespace STG {
       }
       if (Title != other.Title) return false;
       if(!authors_.Equals(other.authors_)) return false;
-      if (!object.Equals(Gameboard, other.Gameboard)) return false;
+      if (SizeX != other.SizeX) return false;
+      if (SizeY != other.SizeY) return false;
+      if (SizeZ != other.SizeZ) return false;
+      if (!Map.Equals(other.Map)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -666,7 +694,10 @@ namespace STG {
       int hash = 1;
       if (Title.Length != 0) hash ^= Title.GetHashCode();
       hash ^= authors_.GetHashCode();
-      if (gameboard_ != null) hash ^= Gameboard.GetHashCode();
+      if (SizeX != 0) hash ^= SizeX.GetHashCode();
+      if (SizeY != 0) hash ^= SizeY.GetHashCode();
+      if (SizeZ != 0) hash ^= SizeZ.GetHashCode();
+      hash ^= Map.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -690,10 +721,19 @@ namespace STG {
         output.WriteString(Title);
       }
       authors_.WriteTo(output, _repeated_authors_codec);
-      if (gameboard_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Gameboard);
+      if (SizeX != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(SizeX);
       }
+      if (SizeY != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(SizeY);
+      }
+      if (SizeZ != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(SizeZ);
+      }
+      map_.WriteTo(output, _map_map_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -709,10 +749,19 @@ namespace STG {
         output.WriteString(Title);
       }
       authors_.WriteTo(ref output, _repeated_authors_codec);
-      if (gameboard_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Gameboard);
+      if (SizeX != 0) {
+        output.WriteRawTag(24);
+        output.WriteInt32(SizeX);
       }
+      if (SizeY != 0) {
+        output.WriteRawTag(32);
+        output.WriteInt32(SizeY);
+      }
+      if (SizeZ != 0) {
+        output.WriteRawTag(40);
+        output.WriteInt32(SizeZ);
+      }
+      map_.WriteTo(ref output, _map_map_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -727,9 +776,16 @@ namespace STG {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Title);
       }
       size += authors_.CalculateSize(_repeated_authors_codec);
-      if (gameboard_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Gameboard);
+      if (SizeX != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(SizeX);
       }
+      if (SizeY != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(SizeY);
+      }
+      if (SizeZ != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(SizeZ);
+      }
+      size += map_.CalculateSize(_map_map_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -746,12 +802,16 @@ namespace STG {
         Title = other.Title;
       }
       authors_.Add(other.authors_);
-      if (other.gameboard_ != null) {
-        if (gameboard_ == null) {
-          Gameboard = new global::STG.Gameboard();
-        }
-        Gameboard.MergeFrom(other.Gameboard);
+      if (other.SizeX != 0) {
+        SizeX = other.SizeX;
       }
+      if (other.SizeY != 0) {
+        SizeY = other.SizeY;
+      }
+      if (other.SizeZ != 0) {
+        SizeZ = other.SizeZ;
+      }
+      map_.Add(other.map_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -775,11 +835,20 @@ namespace STG {
             authors_.AddEntriesFrom(input, _repeated_authors_codec);
             break;
           }
-          case 34: {
-            if (gameboard_ == null) {
-              Gameboard = new global::STG.Gameboard();
-            }
-            input.ReadMessage(Gameboard);
+          case 24: {
+            SizeX = input.ReadInt32();
+            break;
+          }
+          case 32: {
+            SizeY = input.ReadInt32();
+            break;
+          }
+          case 40: {
+            SizeZ = input.ReadInt32();
+            break;
+          }
+          case 66: {
+            map_.AddEntriesFrom(input, _map_map_codec);
             break;
           }
         }
@@ -805,625 +874,20 @@ namespace STG {
             authors_.AddEntriesFrom(ref input, _repeated_authors_codec);
             break;
           }
-          case 34: {
-            if (gameboard_ == null) {
-              Gameboard = new global::STG.Gameboard();
-            }
-            input.ReadMessage(Gameboard);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  /// <summary>
-  /// Optimized for in-memory gameplay. Setup from Level.
-  /// </summary>
-  public sealed partial class Gameboard : pb::IMessage<Gameboard>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<Gameboard> _parser = new pb::MessageParser<Gameboard>(() => new Gameboard());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<Gameboard> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::STG.StgLevelsetReflection.Descriptor.MessageTypes[2]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Gameboard() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Gameboard(Gameboard other) : this() {
-      sizeX_ = other.sizeX_;
-      sizeY_ = other.sizeY_;
-      sizeZ_ = other.sizeZ_;
-      tick_ = other.tick_;
-      gamestate_ = other.gamestate_;
-      globals_ = other.globals_.Clone();
-      map_ = other.map_.Clone();
-      elementStates_ = other.elementStates_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Gameboard Clone() {
-      return new Gameboard(this);
-    }
-
-    /// <summary>Field number for the "size_x" field.</summary>
-    public const int SizeXFieldNumber = 1;
-    private int sizeX_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int SizeX {
-      get { return sizeX_; }
-      set {
-        sizeX_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "size_y" field.</summary>
-    public const int SizeYFieldNumber = 2;
-    private int sizeY_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int SizeY {
-      get { return sizeY_; }
-      set {
-        sizeY_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "size_z" field.</summary>
-    public const int SizeZFieldNumber = 3;
-    private int sizeZ_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int SizeZ {
-      get { return sizeZ_; }
-      set {
-        sizeZ_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "tick" field.</summary>
-    public const int TickFieldNumber = 4;
-    private int tick_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int Tick {
-      get { return tick_; }
-      set {
-        tick_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "gamestate" field.</summary>
-    public const int GamestateFieldNumber = 5;
-    private global::STG.Gamestate gamestate_ = global::STG.Gamestate.Undefined;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::STG.Gamestate Gamestate {
-      get { return gamestate_; }
-      set {
-        gamestate_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "globals" field.</summary>
-    public const int GlobalsFieldNumber = 6;
-    private static readonly pb::FieldCodec<global::STG.ChannelSet> _repeated_globals_codec
-        = pb::FieldCodec.ForMessage(50, global::STG.ChannelSet.Parser);
-    private readonly pbc::RepeatedField<global::STG.ChannelSet> globals_ = new pbc::RepeatedField<global::STG.ChannelSet>();
-    /// <summary>
-    /// list index by color, map index by channel
-    /// Global variables are stored in Colors and Channels. 
-    /// Channels are nested under Colors. A toggle event 
-    /// consists of a {Color, Channel} combo, either of which can be 0 (default).
-    /// If color == 0, iterate through all colors and toggle the
-    /// specified channel.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::STG.ChannelSet> Globals {
-      get { return globals_; }
-    }
-
-    /// <summary>Field number for the "map" field.</summary>
-    public const int MapFieldNumber = 8;
-    private static readonly pbc::MapField<int, global::STG.Cell>.Codec _map_map_codec
-        = new pbc::MapField<int, global::STG.Cell>.Codec(pb::FieldCodec.ForInt32(8, 0), pb::FieldCodec.ForMessage(18, global::STG.Cell.Parser), 66);
-    private readonly pbc::MapField<int, global::STG.Cell> map_ = new pbc::MapField<int, global::STG.Cell>();
-    /// <summary>
-    /// p = z * (size_x + size_y) + y * size_x + x
-    /// x = (p % size_z) % size_x
-    /// y = (p % size_z) // size_x
-    /// z = p // size_z
-    /// position to cell containing tokens
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::MapField<int, global::STG.Cell> Map {
-      get { return map_; }
-    }
-
-    /// <summary>Field number for the "element_states" field.</summary>
-    public const int ElementStatesFieldNumber = 9;
-    private static readonly pbc::MapField<int, global::STG.ElementState>.Codec _map_elementStates_codec
-        = new pbc::MapField<int, global::STG.ElementState>.Codec(pb::FieldCodec.ForInt32(8, 0), pb::FieldCodec.ForMessage(18, global::STG.ElementState.Parser), 74);
-    private readonly pbc::MapField<int, global::STG.ElementState> elementStates_ = new pbc::MapField<int, global::STG.ElementState>();
-    /// <summary>
-    /// key = id * 100_000 + subid. Each element can have up to 100_000 instances.
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::MapField<int, global::STG.ElementState> ElementStates {
-      get { return elementStates_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as Gameboard);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(Gameboard other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (SizeX != other.SizeX) return false;
-      if (SizeY != other.SizeY) return false;
-      if (SizeZ != other.SizeZ) return false;
-      if (Tick != other.Tick) return false;
-      if (Gamestate != other.Gamestate) return false;
-      if(!globals_.Equals(other.globals_)) return false;
-      if (!Map.Equals(other.Map)) return false;
-      if (!ElementStates.Equals(other.ElementStates)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (SizeX != 0) hash ^= SizeX.GetHashCode();
-      if (SizeY != 0) hash ^= SizeY.GetHashCode();
-      if (SizeZ != 0) hash ^= SizeZ.GetHashCode();
-      if (Tick != 0) hash ^= Tick.GetHashCode();
-      if (Gamestate != global::STG.Gamestate.Undefined) hash ^= Gamestate.GetHashCode();
-      hash ^= globals_.GetHashCode();
-      hash ^= Map.GetHashCode();
-      hash ^= ElementStates.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (SizeX != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(SizeX);
-      }
-      if (SizeY != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(SizeY);
-      }
-      if (SizeZ != 0) {
-        output.WriteRawTag(24);
-        output.WriteInt32(SizeZ);
-      }
-      if (Tick != 0) {
-        output.WriteRawTag(32);
-        output.WriteInt32(Tick);
-      }
-      if (Gamestate != global::STG.Gamestate.Undefined) {
-        output.WriteRawTag(40);
-        output.WriteEnum((int) Gamestate);
-      }
-      globals_.WriteTo(output, _repeated_globals_codec);
-      map_.WriteTo(output, _map_map_codec);
-      elementStates_.WriteTo(output, _map_elementStates_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (SizeX != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(SizeX);
-      }
-      if (SizeY != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(SizeY);
-      }
-      if (SizeZ != 0) {
-        output.WriteRawTag(24);
-        output.WriteInt32(SizeZ);
-      }
-      if (Tick != 0) {
-        output.WriteRawTag(32);
-        output.WriteInt32(Tick);
-      }
-      if (Gamestate != global::STG.Gamestate.Undefined) {
-        output.WriteRawTag(40);
-        output.WriteEnum((int) Gamestate);
-      }
-      globals_.WriteTo(ref output, _repeated_globals_codec);
-      map_.WriteTo(ref output, _map_map_codec);
-      elementStates_.WriteTo(ref output, _map_elementStates_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (SizeX != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(SizeX);
-      }
-      if (SizeY != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(SizeY);
-      }
-      if (SizeZ != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(SizeZ);
-      }
-      if (Tick != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Tick);
-      }
-      if (Gamestate != global::STG.Gamestate.Undefined) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Gamestate);
-      }
-      size += globals_.CalculateSize(_repeated_globals_codec);
-      size += map_.CalculateSize(_map_map_codec);
-      size += elementStates_.CalculateSize(_map_elementStates_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(Gameboard other) {
-      if (other == null) {
-        return;
-      }
-      if (other.SizeX != 0) {
-        SizeX = other.SizeX;
-      }
-      if (other.SizeY != 0) {
-        SizeY = other.SizeY;
-      }
-      if (other.SizeZ != 0) {
-        SizeZ = other.SizeZ;
-      }
-      if (other.Tick != 0) {
-        Tick = other.Tick;
-      }
-      if (other.Gamestate != global::STG.Gamestate.Undefined) {
-        Gamestate = other.Gamestate;
-      }
-      globals_.Add(other.globals_);
-      map_.Add(other.map_);
-      elementStates_.Add(other.elementStates_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
+          case 24: {
             SizeX = input.ReadInt32();
             break;
           }
-          case 16: {
+          case 32: {
             SizeY = input.ReadInt32();
             break;
           }
-          case 24: {
-            SizeZ = input.ReadInt32();
-            break;
-          }
-          case 32: {
-            Tick = input.ReadInt32();
-            break;
-          }
           case 40: {
-            Gamestate = (global::STG.Gamestate) input.ReadEnum();
-            break;
-          }
-          case 50: {
-            globals_.AddEntriesFrom(input, _repeated_globals_codec);
-            break;
-          }
-          case 66: {
-            map_.AddEntriesFrom(input, _map_map_codec);
-            break;
-          }
-          case 74: {
-            elementStates_.AddEntriesFrom(input, _map_elementStates_codec);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 8: {
-            SizeX = input.ReadInt32();
-            break;
-          }
-          case 16: {
-            SizeY = input.ReadInt32();
-            break;
-          }
-          case 24: {
             SizeZ = input.ReadInt32();
-            break;
-          }
-          case 32: {
-            Tick = input.ReadInt32();
-            break;
-          }
-          case 40: {
-            Gamestate = (global::STG.Gamestate) input.ReadEnum();
-            break;
-          }
-          case 50: {
-            globals_.AddEntriesFrom(ref input, _repeated_globals_codec);
             break;
           }
           case 66: {
             map_.AddEntriesFrom(ref input, _map_map_codec);
-            break;
-          }
-          case 74: {
-            elementStates_.AddEntriesFrom(ref input, _map_elementStates_codec);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  public sealed partial class ChannelSet : pb::IMessage<ChannelSet>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ChannelSet> _parser = new pb::MessageParser<ChannelSet>(() => new ChannelSet());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<ChannelSet> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::STG.StgLevelsetReflection.Descriptor.MessageTypes[3]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ChannelSet() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ChannelSet(ChannelSet other) : this() {
-      channels_ = other.channels_.Clone();
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ChannelSet Clone() {
-      return new ChannelSet(this);
-    }
-
-    /// <summary>Field number for the "channels" field.</summary>
-    public const int ChannelsFieldNumber = 1;
-    private static readonly pbc::MapField<int, bool>.Codec _map_channels_codec
-        = new pbc::MapField<int, bool>.Codec(pb::FieldCodec.ForInt32(8, 0), pb::FieldCodec.ForBool(16, false), 10);
-    private readonly pbc::MapField<int, bool> channels_ = new pbc::MapField<int, bool>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::MapField<int, bool> Channels {
-      get { return channels_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as ChannelSet);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(ChannelSet other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (!Channels.Equals(other.Channels)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      hash ^= Channels.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      channels_.WriteTo(output, _map_channels_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      channels_.WriteTo(ref output, _map_channels_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      size += channels_.CalculateSize(_map_channels_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(ChannelSet other) {
-      if (other == null) {
-        return;
-      }
-      channels_.Add(other.channels_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            channels_.AddEntriesFrom(input, _map_channels_codec);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            channels_.AddEntriesFrom(ref input, _map_channels_codec);
             break;
           }
         }
@@ -1447,7 +911,7 @@ namespace STG {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::STG.StgLevelsetReflection.Descriptor.MessageTypes[4]; }
+      get { return global::STG.StgLevelsetReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1487,10 +951,10 @@ namespace STG {
 
     /// <summary>Field number for the "terrain" field.</summary>
     public const int TerrainFieldNumber = 1;
-    private global::STG.Token terrain_;
+    private global::STG.Element terrain_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::STG.Token Terrain {
+    public global::STG.Element Terrain {
       get { return terrain_; }
       set {
         terrain_ = value;
@@ -1499,10 +963,10 @@ namespace STG {
 
     /// <summary>Field number for the "terrain_modifier" field.</summary>
     public const int TerrainModifierFieldNumber = 2;
-    private global::STG.Token terrainModifier_;
+    private global::STG.Element terrainModifier_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::STG.Token TerrainModifier {
+    public global::STG.Element TerrainModifier {
       get { return terrainModifier_; }
       set {
         terrainModifier_ = value;
@@ -1511,10 +975,10 @@ namespace STG {
 
     /// <summary>Field number for the "pickup" field.</summary>
     public const int PickupFieldNumber = 3;
-    private global::STG.Token pickup_;
+    private global::STG.Element pickup_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::STG.Token Pickup {
+    public global::STG.Element Pickup {
       get { return pickup_; }
       set {
         pickup_ = value;
@@ -1523,10 +987,10 @@ namespace STG {
 
     /// <summary>Field number for the "mob" field.</summary>
     public const int MobFieldNumber = 4;
-    private global::STG.Token mob_;
+    private global::STG.Element mob_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::STG.Token Mob {
+    public global::STG.Element Mob {
       get { return mob_; }
       set {
         mob_ = value;
@@ -1535,10 +999,10 @@ namespace STG {
 
     /// <summary>Field number for the "top" field.</summary>
     public const int TopFieldNumber = 5;
-    private global::STG.Token top_;
+    private global::STG.Element top_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::STG.Token Top {
+    public global::STG.Element Top {
       get { return top_; }
       set {
         top_ = value;
@@ -1547,10 +1011,10 @@ namespace STG {
 
     /// <summary>Field number for the "north" field.</summary>
     public const int NorthFieldNumber = 6;
-    private global::STG.Token north_;
+    private global::STG.Element north_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::STG.Token North {
+    public global::STG.Element North {
       get { return north_; }
       set {
         north_ = value;
@@ -1559,10 +1023,10 @@ namespace STG {
 
     /// <summary>Field number for the "east" field.</summary>
     public const int EastFieldNumber = 7;
-    private global::STG.Token east_;
+    private global::STG.Element east_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::STG.Token East {
+    public global::STG.Element East {
       get { return east_; }
       set {
         east_ = value;
@@ -1571,10 +1035,10 @@ namespace STG {
 
     /// <summary>Field number for the "south" field.</summary>
     public const int SouthFieldNumber = 8;
-    private global::STG.Token south_;
+    private global::STG.Element south_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::STG.Token South {
+    public global::STG.Element South {
       get { return south_; }
       set {
         south_ = value;
@@ -1583,10 +1047,10 @@ namespace STG {
 
     /// <summary>Field number for the "west" field.</summary>
     public const int WestFieldNumber = 9;
-    private global::STG.Token west_;
+    private global::STG.Element west_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::STG.Token West {
+    public global::STG.Element West {
       get { return west_; }
       set {
         west_ = value;
@@ -1784,55 +1248,55 @@ namespace STG {
       }
       if (other.terrain_ != null) {
         if (terrain_ == null) {
-          Terrain = new global::STG.Token();
+          Terrain = new global::STG.Element();
         }
         Terrain.MergeFrom(other.Terrain);
       }
       if (other.terrainModifier_ != null) {
         if (terrainModifier_ == null) {
-          TerrainModifier = new global::STG.Token();
+          TerrainModifier = new global::STG.Element();
         }
         TerrainModifier.MergeFrom(other.TerrainModifier);
       }
       if (other.pickup_ != null) {
         if (pickup_ == null) {
-          Pickup = new global::STG.Token();
+          Pickup = new global::STG.Element();
         }
         Pickup.MergeFrom(other.Pickup);
       }
       if (other.mob_ != null) {
         if (mob_ == null) {
-          Mob = new global::STG.Token();
+          Mob = new global::STG.Element();
         }
         Mob.MergeFrom(other.Mob);
       }
       if (other.top_ != null) {
         if (top_ == null) {
-          Top = new global::STG.Token();
+          Top = new global::STG.Element();
         }
         Top.MergeFrom(other.Top);
       }
       if (other.north_ != null) {
         if (north_ == null) {
-          North = new global::STG.Token();
+          North = new global::STG.Element();
         }
         North.MergeFrom(other.North);
       }
       if (other.east_ != null) {
         if (east_ == null) {
-          East = new global::STG.Token();
+          East = new global::STG.Element();
         }
         East.MergeFrom(other.East);
       }
       if (other.south_ != null) {
         if (south_ == null) {
-          South = new global::STG.Token();
+          South = new global::STG.Element();
         }
         South.MergeFrom(other.South);
       }
       if (other.west_ != null) {
         if (west_ == null) {
-          West = new global::STG.Token();
+          West = new global::STG.Element();
         }
         West.MergeFrom(other.West);
       }
@@ -1853,63 +1317,63 @@ namespace STG {
             break;
           case 10: {
             if (terrain_ == null) {
-              Terrain = new global::STG.Token();
+              Terrain = new global::STG.Element();
             }
             input.ReadMessage(Terrain);
             break;
           }
           case 18: {
             if (terrainModifier_ == null) {
-              TerrainModifier = new global::STG.Token();
+              TerrainModifier = new global::STG.Element();
             }
             input.ReadMessage(TerrainModifier);
             break;
           }
           case 26: {
             if (pickup_ == null) {
-              Pickup = new global::STG.Token();
+              Pickup = new global::STG.Element();
             }
             input.ReadMessage(Pickup);
             break;
           }
           case 34: {
             if (mob_ == null) {
-              Mob = new global::STG.Token();
+              Mob = new global::STG.Element();
             }
             input.ReadMessage(Mob);
             break;
           }
           case 42: {
             if (top_ == null) {
-              Top = new global::STG.Token();
+              Top = new global::STG.Element();
             }
             input.ReadMessage(Top);
             break;
           }
           case 50: {
             if (north_ == null) {
-              North = new global::STG.Token();
+              North = new global::STG.Element();
             }
             input.ReadMessage(North);
             break;
           }
           case 58: {
             if (east_ == null) {
-              East = new global::STG.Token();
+              East = new global::STG.Element();
             }
             input.ReadMessage(East);
             break;
           }
           case 66: {
             if (south_ == null) {
-              South = new global::STG.Token();
+              South = new global::STG.Element();
             }
             input.ReadMessage(South);
             break;
           }
           case 74: {
             if (west_ == null) {
-              West = new global::STG.Token();
+              West = new global::STG.Element();
             }
             input.ReadMessage(West);
             break;
@@ -1931,63 +1395,63 @@ namespace STG {
             break;
           case 10: {
             if (terrain_ == null) {
-              Terrain = new global::STG.Token();
+              Terrain = new global::STG.Element();
             }
             input.ReadMessage(Terrain);
             break;
           }
           case 18: {
             if (terrainModifier_ == null) {
-              TerrainModifier = new global::STG.Token();
+              TerrainModifier = new global::STG.Element();
             }
             input.ReadMessage(TerrainModifier);
             break;
           }
           case 26: {
             if (pickup_ == null) {
-              Pickup = new global::STG.Token();
+              Pickup = new global::STG.Element();
             }
             input.ReadMessage(Pickup);
             break;
           }
           case 34: {
             if (mob_ == null) {
-              Mob = new global::STG.Token();
+              Mob = new global::STG.Element();
             }
             input.ReadMessage(Mob);
             break;
           }
           case 42: {
             if (top_ == null) {
-              Top = new global::STG.Token();
+              Top = new global::STG.Element();
             }
             input.ReadMessage(Top);
             break;
           }
           case 50: {
             if (north_ == null) {
-              North = new global::STG.Token();
+              North = new global::STG.Element();
             }
             input.ReadMessage(North);
             break;
           }
           case 58: {
             if (east_ == null) {
-              East = new global::STG.Token();
+              East = new global::STG.Element();
             }
             input.ReadMessage(East);
             break;
           }
           case 66: {
             if (south_ == null) {
-              South = new global::STG.Token();
+              South = new global::STG.Element();
             }
             input.ReadMessage(South);
             break;
           }
           case 74: {
             if (west_ == null) {
-              West = new global::STG.Token();
+              West = new global::STG.Element();
             }
             input.ReadMessage(West);
             break;
@@ -1999,21 +1463,21 @@ namespace STG {
 
   }
 
-  public sealed partial class Token : pb::IMessage<Token>
+  public sealed partial class Element : pb::IMessage<Element>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<Token> _parser = new pb::MessageParser<Token>(() => new Token());
+    private static readonly pb::MessageParser<Element> _parser = new pb::MessageParser<Element>(() => new Element());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<Token> Parser { get { return _parser; } }
+    public static pb::MessageParser<Element> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::STG.StgLevelsetReflection.Descriptor.MessageTypes[5]; }
+      get { return global::STG.StgLevelsetReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2024,7 +1488,7 @@ namespace STG {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Token() {
+    public Element() {
       OnConstruction();
     }
 
@@ -2032,611 +1496,22 @@ namespace STG {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Token(Token other) : this() {
+    public Element(Element other) : this() {
       id_ = other.id_;
-      subid_ = other.subid_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public Token Clone() {
-      return new Token(this);
-    }
-
-    /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 1;
-    private global::STG.ElemId id_ = global::STG.ElemId.Undefined;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::STG.ElemId Id {
-      get { return id_; }
-      set {
-        id_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "subid" field.</summary>
-    public const int SubidFieldNumber = 2;
-    private int subid_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int Subid {
-      get { return subid_; }
-      set {
-        subid_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as Token);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(Token other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Id != other.Id) return false;
-      if (Subid != other.Subid) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Id != global::STG.ElemId.Undefined) hash ^= Id.GetHashCode();
-      if (Subid != 0) hash ^= Subid.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Id != global::STG.ElemId.Undefined) {
-        output.WriteRawTag(8);
-        output.WriteEnum((int) Id);
-      }
-      if (Subid != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Subid);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Id != global::STG.ElemId.Undefined) {
-        output.WriteRawTag(8);
-        output.WriteEnum((int) Id);
-      }
-      if (Subid != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Subid);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (Id != global::STG.ElemId.Undefined) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Id);
-      }
-      if (Subid != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Subid);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(Token other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Id != global::STG.ElemId.Undefined) {
-        Id = other.Id;
-      }
-      if (other.Subid != 0) {
-        Subid = other.Subid;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            Id = (global::STG.ElemId) input.ReadEnum();
-            break;
-          }
-          case 16: {
-            Subid = input.ReadInt32();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 8: {
-            Id = (global::STG.ElemId) input.ReadEnum();
-            break;
-          }
-          case 16: {
-            Subid = input.ReadInt32();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  public sealed partial class ElementState : pb::IMessage<ElementState>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<ElementState> _parser = new pb::MessageParser<ElementState>(() => new ElementState());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<ElementState> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::STG.StgLevelsetReflection.Descriptor.MessageTypes[6]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ElementState() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ElementState(ElementState other) : this() {
       rule_ = other.rule_;
       channel_ = other.channel_;
       color_ = other.color_;
       dir_ = other.dir_;
       count_ = other.count_;
       inventory_ = other.inventory_.Clone();
+      stringArgs_ = other.stringArgs_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ElementState Clone() {
-      return new ElementState(this);
-    }
-
-    /// <summary>Field number for the "rule" field.</summary>
-    public const int RuleFieldNumber = 1;
-    private int rule_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int Rule {
-      get { return rule_; }
-      set {
-        rule_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "channel" field.</summary>
-    public const int ChannelFieldNumber = 2;
-    private int channel_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int Channel {
-      get { return channel_; }
-      set {
-        channel_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "color" field.</summary>
-    public const int ColorFieldNumber = 3;
-    private global::STG.Color color_ = global::STG.Color.Undefined;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::STG.Color Color {
-      get { return color_; }
-      set {
-        color_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "dir" field.</summary>
-    public const int DirFieldNumber = 4;
-    private global::STG.Direction dir_ = global::STG.Direction.Undefined;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::STG.Direction Dir {
-      get { return dir_; }
-      set {
-        dir_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "count" field.</summary>
-    public const int CountFieldNumber = 5;
-    private int count_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int Count {
-      get { return count_; }
-      set {
-        count_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "inventory" field.</summary>
-    public const int InventoryFieldNumber = 6;
-    private static readonly pb::FieldCodec<global::STG.InventoryItem> _repeated_inventory_codec
-        = pb::FieldCodec.ForMessage(50, global::STG.InventoryItem.Parser);
-    private readonly pbc::RepeatedField<global::STG.InventoryItem> inventory_ = new pbc::RepeatedField<global::STG.InventoryItem>();
-    /// <summary>
-    /// TODO: how to handle tags like FORCED/SLIDING.
-    /// repeated ElemTag tags = 7;
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::STG.InventoryItem> Inventory {
-      get { return inventory_; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as ElementState);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(ElementState other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Rule != other.Rule) return false;
-      if (Channel != other.Channel) return false;
-      if (Color != other.Color) return false;
-      if (Dir != other.Dir) return false;
-      if (Count != other.Count) return false;
-      if(!inventory_.Equals(other.inventory_)) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Rule != 0) hash ^= Rule.GetHashCode();
-      if (Channel != 0) hash ^= Channel.GetHashCode();
-      if (Color != global::STG.Color.Undefined) hash ^= Color.GetHashCode();
-      if (Dir != global::STG.Direction.Undefined) hash ^= Dir.GetHashCode();
-      if (Count != 0) hash ^= Count.GetHashCode();
-      hash ^= inventory_.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Rule != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(Rule);
-      }
-      if (Channel != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Channel);
-      }
-      if (Color != global::STG.Color.Undefined) {
-        output.WriteRawTag(24);
-        output.WriteEnum((int) Color);
-      }
-      if (Dir != global::STG.Direction.Undefined) {
-        output.WriteRawTag(32);
-        output.WriteEnum((int) Dir);
-      }
-      if (Count != 0) {
-        output.WriteRawTag(40);
-        output.WriteInt32(Count);
-      }
-      inventory_.WriteTo(output, _repeated_inventory_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Rule != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(Rule);
-      }
-      if (Channel != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Channel);
-      }
-      if (Color != global::STG.Color.Undefined) {
-        output.WriteRawTag(24);
-        output.WriteEnum((int) Color);
-      }
-      if (Dir != global::STG.Direction.Undefined) {
-        output.WriteRawTag(32);
-        output.WriteEnum((int) Dir);
-      }
-      if (Count != 0) {
-        output.WriteRawTag(40);
-        output.WriteInt32(Count);
-      }
-      inventory_.WriteTo(ref output, _repeated_inventory_codec);
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (Rule != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Rule);
-      }
-      if (Channel != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Channel);
-      }
-      if (Color != global::STG.Color.Undefined) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Color);
-      }
-      if (Dir != global::STG.Direction.Undefined) {
-        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Dir);
-      }
-      if (Count != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Count);
-      }
-      size += inventory_.CalculateSize(_repeated_inventory_codec);
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(ElementState other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Rule != 0) {
-        Rule = other.Rule;
-      }
-      if (other.Channel != 0) {
-        Channel = other.Channel;
-      }
-      if (other.Color != global::STG.Color.Undefined) {
-        Color = other.Color;
-      }
-      if (other.Dir != global::STG.Direction.Undefined) {
-        Dir = other.Dir;
-      }
-      if (other.Count != 0) {
-        Count = other.Count;
-      }
-      inventory_.Add(other.inventory_);
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            Rule = input.ReadInt32();
-            break;
-          }
-          case 16: {
-            Channel = input.ReadInt32();
-            break;
-          }
-          case 24: {
-            Color = (global::STG.Color) input.ReadEnum();
-            break;
-          }
-          case 32: {
-            Dir = (global::STG.Direction) input.ReadEnum();
-            break;
-          }
-          case 40: {
-            Count = input.ReadInt32();
-            break;
-          }
-          case 50: {
-            inventory_.AddEntriesFrom(input, _repeated_inventory_codec);
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 8: {
-            Rule = input.ReadInt32();
-            break;
-          }
-          case 16: {
-            Channel = input.ReadInt32();
-            break;
-          }
-          case 24: {
-            Color = (global::STG.Color) input.ReadEnum();
-            break;
-          }
-          case 32: {
-            Dir = (global::STG.Direction) input.ReadEnum();
-            break;
-          }
-          case 40: {
-            Count = input.ReadInt32();
-            break;
-          }
-          case 50: {
-            inventory_.AddEntriesFrom(ref input, _repeated_inventory_codec);
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  public sealed partial class InventoryItem : pb::IMessage<InventoryItem>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<InventoryItem> _parser = new pb::MessageParser<InventoryItem>(() => new InventoryItem());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<InventoryItem> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::STG.StgLevelsetReflection.Descriptor.MessageTypes[7]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InventoryItem() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InventoryItem(InventoryItem other) : this() {
-      id_ = other.id_;
-      rule_ = other.rule_;
-      color_ = other.color_;
-      count_ = other.count_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InventoryItem Clone() {
-      return new InventoryItem(this);
+    public Element Clone() {
+      return new Element(this);
     }
 
     /// <summary>Field number for the "id" field.</summary>
@@ -2663,20 +1538,44 @@ namespace STG {
       }
     }
 
-    /// <summary>Field number for the "color" field.</summary>
-    public const int ColorFieldNumber = 3;
-    private int color_;
+    /// <summary>Field number for the "channel" field.</summary>
+    public const int ChannelFieldNumber = 3;
+    private int channel_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int Color {
+    public int Channel {
+      get { return channel_; }
+      set {
+        channel_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "color" field.</summary>
+    public const int ColorFieldNumber = 4;
+    private global::STG.Color color_ = global::STG.Color.Undefined;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::STG.Color Color {
       get { return color_; }
       set {
         color_ = value;
       }
     }
 
+    /// <summary>Field number for the "dir" field.</summary>
+    public const int DirFieldNumber = 5;
+    private global::STG.Direction dir_ = global::STG.Direction.Undefined;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::STG.Direction Dir {
+      get { return dir_; }
+      set {
+        dir_ = value;
+      }
+    }
+
     /// <summary>Field number for the "count" field.</summary>
-    public const int CountFieldNumber = 4;
+    public const int CountFieldNumber = 6;
     private int count_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2687,15 +1586,40 @@ namespace STG {
       }
     }
 
+    /// <summary>Field number for the "inventory" field.</summary>
+    public const int InventoryFieldNumber = 7;
+    private static readonly pb::FieldCodec<global::STG.Element> _repeated_inventory_codec
+        = pb::FieldCodec.ForMessage(58, global::STG.Element.Parser);
+    private readonly pbc::RepeatedField<global::STG.Element> inventory_ = new pbc::RepeatedField<global::STG.Element>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as InventoryItem);
+    public pbc::RepeatedField<global::STG.Element> Inventory {
+      get { return inventory_; }
+    }
+
+    /// <summary>Field number for the "string_args" field.</summary>
+    public const int StringArgsFieldNumber = 8;
+    private static readonly pb::FieldCodec<string> _repeated_stringArgs_codec
+        = pb::FieldCodec.ForString(66);
+    private readonly pbc::RepeatedField<string> stringArgs_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    /// for hints, messages, maybe checkpoints
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<string> StringArgs {
+      get { return stringArgs_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(InventoryItem other) {
+    public override bool Equals(object other) {
+      return Equals(other as Element);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(Element other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -2704,8 +1628,12 @@ namespace STG {
       }
       if (Id != other.Id) return false;
       if (Rule != other.Rule) return false;
+      if (Channel != other.Channel) return false;
       if (Color != other.Color) return false;
+      if (Dir != other.Dir) return false;
       if (Count != other.Count) return false;
+      if(!inventory_.Equals(other.inventory_)) return false;
+      if(!stringArgs_.Equals(other.stringArgs_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2715,8 +1643,12 @@ namespace STG {
       int hash = 1;
       if (Id != global::STG.ElemId.Undefined) hash ^= Id.GetHashCode();
       if (Rule != 0) hash ^= Rule.GetHashCode();
-      if (Color != 0) hash ^= Color.GetHashCode();
+      if (Channel != 0) hash ^= Channel.GetHashCode();
+      if (Color != global::STG.Color.Undefined) hash ^= Color.GetHashCode();
+      if (Dir != global::STG.Direction.Undefined) hash ^= Dir.GetHashCode();
       if (Count != 0) hash ^= Count.GetHashCode();
+      hash ^= inventory_.GetHashCode();
+      hash ^= stringArgs_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2743,14 +1675,24 @@ namespace STG {
         output.WriteRawTag(16);
         output.WriteInt32(Rule);
       }
-      if (Color != 0) {
+      if (Channel != 0) {
         output.WriteRawTag(24);
-        output.WriteInt32(Color);
+        output.WriteInt32(Channel);
+      }
+      if (Color != global::STG.Color.Undefined) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) Color);
+      }
+      if (Dir != global::STG.Direction.Undefined) {
+        output.WriteRawTag(40);
+        output.WriteEnum((int) Dir);
       }
       if (Count != 0) {
-        output.WriteRawTag(32);
+        output.WriteRawTag(48);
         output.WriteInt32(Count);
       }
+      inventory_.WriteTo(output, _repeated_inventory_codec);
+      stringArgs_.WriteTo(output, _repeated_stringArgs_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2769,14 +1711,24 @@ namespace STG {
         output.WriteRawTag(16);
         output.WriteInt32(Rule);
       }
-      if (Color != 0) {
+      if (Channel != 0) {
         output.WriteRawTag(24);
-        output.WriteInt32(Color);
+        output.WriteInt32(Channel);
+      }
+      if (Color != global::STG.Color.Undefined) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) Color);
+      }
+      if (Dir != global::STG.Direction.Undefined) {
+        output.WriteRawTag(40);
+        output.WriteEnum((int) Dir);
       }
       if (Count != 0) {
-        output.WriteRawTag(32);
+        output.WriteRawTag(48);
         output.WriteInt32(Count);
       }
+      inventory_.WriteTo(ref output, _repeated_inventory_codec);
+      stringArgs_.WriteTo(ref output, _repeated_stringArgs_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -2793,12 +1745,20 @@ namespace STG {
       if (Rule != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Rule);
       }
-      if (Color != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Color);
+      if (Channel != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Channel);
+      }
+      if (Color != global::STG.Color.Undefined) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Color);
+      }
+      if (Dir != global::STG.Direction.Undefined) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Dir);
       }
       if (Count != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Count);
       }
+      size += inventory_.CalculateSize(_repeated_inventory_codec);
+      size += stringArgs_.CalculateSize(_repeated_stringArgs_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2807,7 +1767,7 @@ namespace STG {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(InventoryItem other) {
+    public void MergeFrom(Element other) {
       if (other == null) {
         return;
       }
@@ -2817,12 +1777,20 @@ namespace STG {
       if (other.Rule != 0) {
         Rule = other.Rule;
       }
-      if (other.Color != 0) {
+      if (other.Channel != 0) {
+        Channel = other.Channel;
+      }
+      if (other.Color != global::STG.Color.Undefined) {
         Color = other.Color;
+      }
+      if (other.Dir != global::STG.Direction.Undefined) {
+        Dir = other.Dir;
       }
       if (other.Count != 0) {
         Count = other.Count;
       }
+      inventory_.Add(other.inventory_);
+      stringArgs_.Add(other.stringArgs_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2847,11 +1815,27 @@ namespace STG {
             break;
           }
           case 24: {
-            Color = input.ReadInt32();
+            Channel = input.ReadInt32();
             break;
           }
           case 32: {
+            Color = (global::STG.Color) input.ReadEnum();
+            break;
+          }
+          case 40: {
+            Dir = (global::STG.Direction) input.ReadEnum();
+            break;
+          }
+          case 48: {
             Count = input.ReadInt32();
+            break;
+          }
+          case 58: {
+            inventory_.AddEntriesFrom(input, _repeated_inventory_codec);
+            break;
+          }
+          case 66: {
+            stringArgs_.AddEntriesFrom(input, _repeated_stringArgs_codec);
             break;
           }
         }
@@ -2878,11 +1862,27 @@ namespace STG {
             break;
           }
           case 24: {
-            Color = input.ReadInt32();
+            Channel = input.ReadInt32();
             break;
           }
           case 32: {
+            Color = (global::STG.Color) input.ReadEnum();
+            break;
+          }
+          case 40: {
+            Dir = (global::STG.Direction) input.ReadEnum();
+            break;
+          }
+          case 48: {
             Count = input.ReadInt32();
+            break;
+          }
+          case 58: {
+            inventory_.AddEntriesFrom(ref input, _repeated_inventory_codec);
+            break;
+          }
+          case 66: {
+            stringArgs_.AddEntriesFrom(ref input, _repeated_stringArgs_codec);
             break;
           }
         }
@@ -2906,7 +1906,7 @@ namespace STG {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::STG.StgLevelsetReflection.Descriptor.MessageTypes[8]; }
+      get { return global::STG.StgLevelsetReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
